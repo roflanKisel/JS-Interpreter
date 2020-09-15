@@ -6,7 +6,7 @@
   "module": "lib/js-interpreter.js",
   "bin": "lib/cli.min.js",
   "files": [
-      "lib"
+    "lib"
   ],
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -31,6 +31,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "acorn": "^8.0.1",
     "minimist": "^1.2.0"
   }
 }

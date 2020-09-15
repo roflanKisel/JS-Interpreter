@@ -41,7 +41,7 @@ function cliConfig(
         },
         plugins: [
             new webpack.ProvidePlugin({
-                acorn: path.resolve(__dirname, 'original-repo', 'acorn.js')
+                acorn: path.resolve(__dirname, 'node_modules', 'acorn', 'dist', 'acorn.js'),
             }),
             new webpack.BannerPlugin({
                 banner: '#!/usr/bin/env node',
